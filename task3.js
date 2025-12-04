@@ -8,7 +8,7 @@ function convertNumber(){
         return;
     }
     let result="";
-    if(format==="oct"){
+    if(format==="octal"){
         result=num.toString(8);
     } else if(format==="hex"){
         result=num.toString(16).toUpperCase();
